@@ -1,0 +1,40 @@
+
+@import url("../css/card.css");
+
+* {
+    margin: 0 15px;
+    padding: 0;
+    box-sizing: border-box;
+}
+.awesome-path {
+    max-width: 1400px;
+    height: 250px;
+    padding: 15px;
+}
+.awesome-title {
+    margin: 85px auto 15px auto;
+    width: 409px;
+    height: 38px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    color: #212121;
+}
+.awesome-line {
+    margin: 10px auto 15px auto;
+    width: 64px;
+    height: 2px;
+    border: 1px solid #D98943;
+}
+.awesome-text {
+    margin: 15px auto 21px auto;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #86878B;
+}
