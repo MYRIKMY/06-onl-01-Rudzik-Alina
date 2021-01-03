@@ -1,0 +1,106 @@
+.pricing {
+    background-color: #E5E5E5;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.pricing-title {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #212121;  
+}
+.pricing-line {
+    margin: 34px auto 34px auto;
+    width: 64px;
+    height: 2px;
+    border: 1px solid #E72424;
+}
+.pricing-text {
+    text-align: center;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #86878B;
+}
+.pricing-cards-path {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.pricing-card {
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+}
+.pricing-card-head {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 2px;
+    height: 50px;
+    background: #333333;
+}
+.pricing-card-head_on_clik {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 2px;
+    height: 50px;
+    background: #D98943;
+}
+.pricing-card-price {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 2px;
+    height: 100px;
+    background: #333333;
+    overflow: hidden;
+}
+.pricing-card-title {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+.pricing-card-price {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 41px;
+    color: #FFFFFF;
+}
+.pricing-card-subtitle {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.pricing-card-item {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 4px;
+    height: 40px;
+    background: #FFFFFF;
+}
+.pricing-card-item-text {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #86878B;
+}
