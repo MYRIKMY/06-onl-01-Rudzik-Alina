@@ -10,14 +10,21 @@
     font-size: 36px;
     line-height: 42px;
     color: #212121;
+    position: relative;
 }
-.awesome-line {
-    margin: 25px auto 30px auto;
+.awesome-title::after {
+    content: "";
+    position: absolute;
     width: 64px;
     height: 2px;
     border: 1px solid #D98943;
+    background-color: #D98943;
+    left: 47%;
+    top: 76px;
 }
+
 .awesome-text {
+    margin-top: 70px;
     text-align: center;
     font-family: Open Sans;
     font-style: normal;
