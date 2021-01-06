@@ -1,0 +1,101 @@
+.testimonials {
+    padding-top: 80px;
+    padding-bottom: 120px;
+}
+.testimonials-title {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #212121;
+}
+.testimonials-line {
+    margin: 34px auto 34px auto;
+    width: 64px;
+    height: 2px;
+    border: 1px solid #E72424;
+}
+.testimonials-text {
+    text-align: center;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #86878B;
+}
+.testimonials-comment-path {
+    margin-top: 67px;
+    display: flex;
+    justify-content: space-between;
+}
+.testimonials-comment-space {
+    width: 298px;
+    padding: 7px 15px 5px 15px;
+    background: #E2E2E2;
+    border-radius: 7px;
+    position: relative;
+}
+.testimonials-comment-space::after {
+    content: "";
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    left: 39px;
+    top: 90.5%;
+    background: #E2E2E2;
+    transform: rotate(-45deg);
+}
+.testimonials-comment-text {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #86878B;
+}
+.testimonials-comment-owner {
+    display: flex;
+}
+.testimonials-comment-owner-avatar {
+    margin-top: 22px;
+    margin-left: 45px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.testimonials-comment-owner-name {
+    margin-top: 30px;
+    margin-left: 45px;
+    
+}
+.comment-owner-name {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #333333;
+}
+.comment-owner-post {
+    margin-top: 12px;
+    margin-left: 38px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #86878B;
+}

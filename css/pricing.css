@@ -2,6 +2,7 @@
     background-color: #E5E5E5;
     padding-top: 80px;
     padding-bottom: 80px;
+    position: relative;
 }
 .pricing-title {
     font-family: Raleway;
@@ -43,32 +44,32 @@
     align-items: center;
     display: flex;
     margin-top: 2px;
-    height: 50px;
     background: #333333;
+    /*transition: 1.5s;*/
 }
-.pricing-card-head_on_clik {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    margin-top: 2px;
-    height: 50px;
+.pricing-card-head:hover {
     background: #D98943;
 }
-.pricing-card-price {
+.pricing-card-head:first-child {
+    margin-top: 0;
+}
+.pricing-card-head-price {
     justify-content: center;
     align-items: center;
     display: flex;
     margin-top: 2px;
-    height: 100px;
     background: #333333;
-    overflow: hidden;
+    /*transition: 1.5s;*/
+}
+.pricing-card-head-price:hover {
+    background: #D98943;
 }
 .pricing-card-title {
     font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
-    line-height: 27px;
+    line-height: 50px;
     color: #FFFFFF;
 }
 .pricing-card-price {
@@ -76,7 +77,7 @@
     font-style: normal;
     font-weight: bold;
     font-size: 35px;
-    line-height: 41px;
+    line-height: 100px;
     color: #FFFFFF;
 }
 .pricing-card-subtitle {
@@ -84,7 +85,7 @@
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
-    line-height: 19px;
+    line-height: 50px;
     color: rgba(255, 255, 255, 0.5);
 }
 .pricing-card-item {
@@ -92,15 +93,18 @@
     align-items: center;
     display: flex;
     margin-top: 4px;
-    height: 40px;
     background: #FFFFFF;
+    /*transition: 1s;*/
+}
+.pricing-card-item:hover {
+    background-color:  #fdcf99;
 }
 .pricing-card-item-text {
     font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 19px;
+    line-height: 40px;
     text-align: center;
     color: #86878B;
 }
