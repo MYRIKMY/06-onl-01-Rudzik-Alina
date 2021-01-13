@@ -15,16 +15,12 @@
 }
 .testimonials-title::after {
     content: "";
-    position: absolute;
+    display: block;
     width: 64px;
-    height: 2px;
+    margin: 34px auto 34px auto;
     border: 1px solid #E72424;
-    background-color:  #E72424;
-    left: 47%;
-    top: 76px;
 }
 .testimonials-text {
-    margin-top: 70px;
     text-align: center;
     font-family: Open Sans;
     font-style: normal;
@@ -40,7 +36,8 @@
 }
 .testimonials-comment-space {
     width: 298px;
-    padding: 7px 15px 5px 15px;
+    display: flex;
+    padding: 10px;
     background: #E2E2E2;
     border-radius: 7px;
     position: relative;
@@ -48,12 +45,11 @@
 .testimonials-comment-space::after {
     content: "";
     position: absolute;
-    width: 17px;
-    height: 17px;
-    left: 39px;
-    top: 90.5%;
-    background: #E2E2E2;
-    transform: rotate(-45deg);
+    border-top: 12px solid #E2E2E2;
+    border-left: 12px solid transparent; 
+    border-right: 12px solid transparent; 
+    left: 45px;
+    top: 100%;
 }
 .testimonials-comment-text {
     font-family: Open Sans;

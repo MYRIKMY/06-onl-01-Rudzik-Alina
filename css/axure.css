@@ -34,16 +34,12 @@
 }
 .axure-title::after {
     content: "";
-    position: absolute;
+    display: block;
     width: 64px;
-    height: 2px;
     border: 1px solid #FFFFFF;
-    background-color: #FFFFFF;
-    left: 47%;
-    top: 76px;
+    margin: 34px auto 34px auto;
 }
 .axure-text {
-    margin-top: 70px;
     font-family: Raleway;
     font-style: normal;
     font-weight: 300;
@@ -57,11 +53,13 @@
     width: 135px;
     position: relative;
     z-index: 2;
+    overflow: hidden;
 }
 .axure-button-text {
     justify-content: center;
     align-items: center;
     display: flex;
+    display: block;
     font-family: Open Sans;
     font-style: normal;
     font-weight: 600;
@@ -70,7 +68,28 @@
     text-align: center;
     color: #FFFFFF;
     border: 1px solid #FFFFFF;
+    position: relative;
+    transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
 }
 .axure-button-text:hover {
-    background-color: rgba(255, 255, 255, 0.35);
+    color: #EC7979 !important;
+    background-color: rgba(196, 196, 196, 0.15);
+    border-color: #EC7979;
+}
+.axure-button-text:hover::before {
+    bottom: 0;
+    top: auto;
+    height: 100%;
+}
+.axure-button-text::before {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 0;
+    width: 100%;
+    content: "";
+    color: #EC7979 !important;
+    background:  rgba(196, 196, 196, 0.15);
+    transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
 }
