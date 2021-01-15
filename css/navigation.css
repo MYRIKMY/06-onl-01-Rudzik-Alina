@@ -17,11 +17,10 @@
     position: relative;
     left: 25%;
     transform: translate(-50%);
-}
-.logo-AX {
     color: #fff;
 }
-.logo-IT {
+.logo::after {
+    content: "IT";
     color: #EC7979;
 }
 .navigation-list {

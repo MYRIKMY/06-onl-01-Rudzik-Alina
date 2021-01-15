@@ -1,114 +1,114 @@
 .pricing {
-    background-color: #E5E5E5;
-    padding-top: 80px;
-    padding-bottom: 80px;
-    position: relative;
+		background-color: #E5E5E5;
+		padding-top: 80px;
+		padding-bottom: 80px;
+		position: relative;
 }
 .pricing-title {
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 36px;
-    line-height: 42px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #212121;  
-    position: relative;
+		font-family: Raleway;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 36px;
+		line-height: 42px;
+		text-align: center;
+		text-transform: uppercase;
+		color: #212121;  
+		position: relative;
 }
 .pricing-title::after {
-    content: "";
-    display: block;
-    width: 64px;
-    margin: 34px auto 34px auto;
-    border: 1px solid #E72424;
+		content: "";
+		display: block;
+		width: 64px;
+		margin: 34px auto 34px auto;
+		border: 1px solid #E72424;
 }
 .pricing-text {
-    text-align: center;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 19px;
-    color: #86878B;
+		text-align: center;
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 19px;
+		color: #86878B;
 }
 .pricing-cards-path {
-    margin-top: 60px;
-    display: flex;
-    justify-content: space-between;
+		margin-top: 60px;
+		display: flex;
+		justify-content: space-between;
 }
 .pricing-card {
-    width: 340px;
-    margin: 0 7px;
-    display: flex;
-    display: block;
-    flex-direction: column;
-    position: relative;
-    z-index: 2;
-    transition: all 0.8s;
+		width: 340px;
+		margin: 0 7px;
+		display: flex;
+		display: block;
+		flex-direction: column;
+		position: relative;
+		z-index: 2;
+		transition: all 0.8s;
 }
 .pricing-card:hover {
-    transform: translate(0, -10px);
-    box-shadow: 0 30px 14px rgba(0, 0, 0, 0.2);
+		transform: translate(0, -10px);
+		box-shadow: 0 30px 14px rgba(0, 0, 0, 0.2);
 }
 /*.pricing-card::after {
-    content: "";
-    display: block;
-    background-color: #86878B;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    z-index: 1;
+		content: "";
+		display: block;
+		background-color: #86878B;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		z-index: 1;
 } */
 .pricing-card-head {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    margin-top: 2px;
-    background: #333333;
+		justify-content: center;
+		align-items: center;
+		display: flex;
+		margin-top: 2px;
+		background: #333333;
 }
 .pricing-card-head:first-child {
-    margin-top: 0;
+		margin-top: 0;
 }
 .pricing-card-title {
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 50px;
-    color: #FFFFFF;
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		line-height: 50px;
+		color: #FFFFFF;
 }
 .pricing-card-price {
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 35px;
-    padding: 25px 0;
-    line-height: 50px;
-    color: #FFFFFF;
+		font-family: Raleway;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 35px;
+		padding: 25px 0;
+		line-height: 50px;
+		color: #FFFFFF;
 }
 .pricing-card-subtitle {
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 50px;
-    color: rgba(255, 255, 255, 0.5);
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: 600;
+		font-size: 14px;
+		line-height: 50px;
+		color: rgba(255, 255, 255, 0.5);
 }
 .pricing-card-item {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    margin-top: 4px;
-    background: #FFFFFF;
+		justify-content: center;
+		align-items: center;
+		display: flex;
+		margin-top: 4px;
+		background: #FFFFFF;
 }
 .pricing-card-item-text {
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 40px;
-    text-align: center;
-    color: #86878B;
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 40px;
+		text-align: center;
+		color: #86878B;
 }

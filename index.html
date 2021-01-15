@@ -8,21 +8,15 @@
     <title>Lessons</title>
 </head>
 <body>
-
-    <div class="note">Все ссылки кликабельны</div>
-
     <section class="navigation">
         <div class="container">
             <div class="navigation-container">
                 <div class="site-name">
-                <h3 class="logo">
-                    <span class="logo-AX">AX</span>
-                    <span class="logo-IT">IT</span>
-                </h3>
+                <a href="#"><h3 class="logo">AX<!--IT--></h3></a>
                 </div>
                 <nav>
                 <ul class="navigation-list">
-                    <li class="navigation-list-item"><a href="#">Feautures</a></li>
+                    <li class="navigation-list-item"><a href="#features">Feautures</a></li>
                     <li class="navigation-list-item"><a href="#about">About</a></li>
                     <li class="navigation-list-item"><a href="#pricing">Pricing</a></li>
                     <li class="navigation-list-item"><a href="#rewiews">Rewiews</a></li>
@@ -32,6 +26,42 @@
             </div>
         </div>
     </section>
+    <header>
+        <div class="container header-container">
+            <div class="header-text-path">
+                <h1 class="main-title">ax</h1>
+                <h2 class="header-title">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h2>
+                <p class="header-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean</p>
+                <div class="header-button">
+                    <a href="img/кот.jpg" class="header-button-text">Download</a>
+                </div>
+            </div>
+            <div class="header-form-path">
+                <div class="header-form-name">
+                    <p>
+                        Try Your
+                        <span>
+                            FREE
+                        </span>
+                        Trial Today
+                    </p>
+                </div>
+                <form action="#" method="POST" class="start-form">
+                    <label for="user_name_start">Name</label>
+                    <input required type="text" name="user_name_start" id="user_name_start" value="">
+                    <label for="user_email_start">Email</label>
+                    <input required type="email" name="user_email_start" id="user_email_start" value="">
+                    <label for="user_pass_start">Password</label>
+                    <input required type="password" name="user_pass_start" id="user_pass_start" value="">
+                    
+                    <div class="header-form-button">
+                        <button class="header-form-button-text" type="submit">Get Started</button>
+                        
+                    </div>
+                </form>
+            </div>
+        </div>
+    </header>
     <section class="social-media">
         <div class="container">
             <div class="social-media-container">
@@ -40,8 +70,7 @@
                         Social Media
                     </span>
                     <p class="social-media-text-item">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-Aenean euismod bibendum laoreet.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.
                     </p>
                 </div>
                 <ul class="social-media-icons">
@@ -53,6 +82,84 @@ Aenean euismod bibendum laoreet.
                     <li><a href="https://www.stumbleupon.com/"><i class="fab fa-stumbleupon"></i></a></li>
                     <li><a href="#"><i class="fas fa-rss"></i></a></li>
                 </ul>
+            </div>
+        </div>
+    </section>
+    <section class="features" id="features">
+        <div class="container features-container">
+            <div class="features-tabs">
+                <input type="radio" name="tabs" id="tab1" checked />
+                <input type="radio" name="tabs" id="tab2" />
+                <input type="radio" name="tabs" id="tab3" />
+                <div class="tab-buttons">
+                    <label class="button-tab_1" for="tab1">TAB 1</label>
+                    <label class="button-tab_2" for="tab2">TAB 2</label>
+                    <label class="button-tab_3" for="tab3">TAB 3</label>
+                </div>
+                <div class="content">
+                    <div class="tabs-content tab-1">
+                        <div class="tabs-content-text">
+                            <span>
+                                Tabs with soft transitioning effect.
+                            </span>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam molestiae quibusdam suscipit eligendi corporis cum, atque quam, velit, temporibus distinctio quia rerum magni? Quia tenetur expedita omnis optio iusto iure enim, dolores minus! Repellat tempora earum optio molestias?
+                                <br><br>
+                                Lorem ipsum dolor sit amet.
+                            </p>
+                            <div class="tabs-content-button">
+                                <a class="tabs-content-button-text" href="img/кот.jpg">Download</a>
+                            </div>
+                        </div>
+                        <div class="tabs-content-img">
+                            <img src="img/features_img.png" alt="#">
+                        </div>
+                    </div>
+                    <div class="tabs-content tab-2">
+                        <div class="tabs-content-text">
+                            <span>
+                                Tabs with soft transitioning effect.
+                            </span>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                                bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
+                                justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
+                                penatibus et magnis dis parturient montes.
+                                <br><br>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                                bibendum laoreet.
+                            </p>
+                            <div class="tabs-content-button">
+                                <a class="tabs-content-button-text" href="img/кот.jpg">Download</a>
+                            </div>
+                        </div>
+                        <div class="tabs-content-img">
+                            <img src="img/features_img-2.png" alt="#">
+                        </div>
+                    </div>
+                    <div class="tabs-content tab-3">
+                        <div class="tabs-content-text">
+                            <span>
+                                Tabs with soft transitioning effect.
+                            </span>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                                bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
+                                justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
+                                penatibus et magnis dis parturient montes.
+                                <br><br>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                                bibendum laoreet.
+                            </p>
+                            <div class="tabs-content-button">
+                                <a class="tabs-content-button-text" href="img/кот.jpg">Download</a>
+                            </div>
+                        </div>
+                        <div class="tabs-content-img">
+                            <img src="img/features_img-3.png" alt="#">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -287,8 +394,24 @@ Aenean euismod bibendum laoreet.
                 <h2 class="contact_us-title">contact us</h2>
                 <p class="contact_us-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
-            <div class="contact_us-button">
-                <a class="contact_us-button-text" href="img/кот.jpg">Send Message</a>
+            <div class="contact_us-form-path">
+                <form action="#" method="POST">
+                    <div class="contact-form left-column">
+                        <label for="user_name_contact">Name</label>
+                        <input required type="text" name="user_name_contact" id="user_name_contact" value="">
+                        <label for="user_email_contact">Email</label>
+                        <input required type="email" name="user_email_contact" id="user_email_contact" value="">
+                        <label for="user_pass_contact">Password</label>
+                        <input required type="password" name="user_pass_contact" id="user_pass_contact" value="">
+                    </div>
+                    <div class="contact-form right-column">
+                        <label for="user_mess_contact">Message</label>
+                        <textarea name="user_mess_contact" id="user_mess_contact" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="contact_us-button">
+                        <button class="contact_us-button-text" type="submit">Send Message</button>
+                    </div>
+                </form>
             </div>
         </div>
     </section>

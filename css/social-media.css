@@ -12,27 +12,25 @@
 }
 .social-media-text-title {
     font-family: Open Sans;
-font-style: normal;
-font-weight: bold;
-font-size: 20px;
-line-height: 27px;
-display: flex;
-align-items: center;
-
-color: #333333;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    color: #333333;
 
 }
 .social-media-text-item {
     margin-top: 14px;
     font-family: Open Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 19px;
-display: flex;
-align-items: center;
-
-color: #86878B;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #86878B;
 }
 .social-media-icons {
     width: 690px;
