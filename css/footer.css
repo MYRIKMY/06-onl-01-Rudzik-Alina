@@ -1,37 +1,37 @@
 footer {
-    padding-top: 30px;
-    padding-bottom: 15px;
-    background-color: #000;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  background-color: #000;
 }
 .footer-contacts {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 .footer-contacts .fab {
-    font-size: 23px;
-    color: rgba(255, 255, 255, 0.5);
-    margin: 0 10px;
-    transition: all 0.4s;
+  font-size: 1.4375rem;
+  color: rgba(255, 255, 255, 0.5);
+  margin: 0 10px;
+  transition: all 0.4s;
 }
 .footer-contacts .fas {
-    font-size: 23px;
-    color: rgba(255, 255, 255, 0.5);
-    margin: 0 10px;
-    transition: all 0.4s;
+  font-size: 1.4375rem;
+  color: rgba(255, 255, 255, 0.5);
+  margin: 0 10px;
+  transition: all 0.4s;
 }
 .footer-contacts .fab:hover {
-    color: #EC7979;
+  color: #EC7979;
 }
 .footer-contacts .fas:hover {
-    color: #EC7979;
+  color: #EC7979;
 }
 .footer-site {
-    margin-top: 18px;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 16px;
-    text-align: center;
-    color: rgba(255, 255, 255, 0.5);
+  margin-top: 18px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
 }

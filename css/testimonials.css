@@ -1,102 +1,121 @@
 .testimonials {
-    padding-top: 80px;
-    padding-bottom: 120px;
+  padding-top: 80px;
+  padding-bottom: 120px;
 }
 .testimonials-title {
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 36px;
-    line-height: 42px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #212121;
-    position: relative;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.25rem;
+  line-height: 2.625rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #212121;
+  position: relative;
 }
 .testimonials-title::after {
-    content: "";
-    display: block;
-    width: 64px;
-    margin: 34px auto 34px auto;
-    border: 1px solid #E72424;
+  content: "";
+  display: block;
+  width: 64px;
+  margin: 34px auto 34px auto;
+  border: 1px solid #E72424;
 }
 .testimonials-text {
-    text-align: center;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 19px;
-    color: #86878B;
+  text-align: center;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.875rem;
+  line-height: 1.1875rem;
+  color: #86878B;
 }
 .testimonials-comment-path {
-    margin-top: 67px;
-    display: flex;
-    justify-content: space-between;
+  margin-top: 67px;
+  display: flex;
+  justify-content: space-between;
+  /*flex-wrap: wrap;*/
+}
+.testimonials-comment {
+  margin-top: auto;
 }
 .testimonials-comment-space {
-    width: 298px;
-    display: flex;
-    padding: 10px;
-    background: #E2E2E2;
-    border-radius: 7px;
-    position: relative;
+  max-width: 298px;
+  margin: 0 3px;
+  padding: 10px;
+  background: #E2E2E2;
+  border-radius: 7px;
+  position: relative;
 }
 .testimonials-comment-space::after {
-    content: "";
-    position: absolute;
-    border-top: 12px solid #E2E2E2;
-    border-left: 12px solid transparent; 
-    border-right: 12px solid transparent; 
-    left: 45px;
-    top: 100%;
+  content: "";
+  position: absolute;
+  border-top: 12px solid #E2E2E2;
+  border-left: 12px solid transparent; 
+  border-right: 12px solid transparent; 
+  left: 45px;
+  top: 100%;
 }
 .testimonials-comment-text {
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 19px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #86878B;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.875rem;
+  line-height: 1.1875rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #86878B;
 }
 .testimonials-comment-owner {
-    display: flex;
+  display: flex;
 }
 .testimonials-comment-owner-avatar {
-    margin-top: 22px;
-    margin-left: 45px;
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
+  margin-top: 22px;
+  margin-left: 45px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
 }
 .testimonials-comment-owner-name {
-    margin-top: 30px;
-    margin-left: 45px;
+  margin-top: 30px;
+  margin-left: 45px;
 }
 .comment-owner-name {
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 27px;
-    display: flex;
-    align-items: center;
-    text-align: right;
-    color: #333333;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.25rem;
+  line-height: 1.6875rem;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  color: #333333;
 }
 .comment-owner-post {
-    margin-top: 12px;
-    margin-left: 38px;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 19px;
+  margin-top: 12px;
+  margin-left: 38px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.875rem;
+  line-height: 1.1875rem;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  color: #86878B;
+}
+@media (max-width: 992px) {
+  .testimonials-comment-path {
     display: flex;
-    align-items: center;
-    text-align: right;
-    color: #86878B;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .testimonials-comment {
+    margin-top: 55px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .testimonials-comment:first-child {
+    margin-top: 15px;
+  }
 }

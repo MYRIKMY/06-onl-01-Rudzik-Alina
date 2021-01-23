@@ -1,58 +1,68 @@
 .social-media {
-    background: #F8EFEF;
-    padding-top: 14px;
-    padding-bottom: 17px;
+  background: #F8EFEF;
+  padding-top: 14px;
+  padding-bottom: 17px;
 }
 .social-media-container {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 .social-media-text {
-    max-width: 365px;
+  max-width: 365px;
 }
 .social-media-text-title {
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 27px;
-    display: flex;
-    align-items: center;
-    color: #333333;
-
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.25rem;
+  line-height: 1.6875rem;
+  display: flex;
+  align-items: center;
+  color: #333333;
 }
 .social-media-text-item {
-    margin-top: 14px;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 19px;
-    display: flex;
-    align-items: center;
-    color: #86878B;
+  margin-right: 5px;
+  margin-top: 14px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.875rem;
+  line-height: 1.1875rem;
+  display: flex;
+  align-items: center;
+  color: #86878B;
 }
 .social-media-icons {
-    width: 690px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  width: 690px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .social-media-icons .fab {
-    font-size: 42px;
-    color: rgba(0, 0, 0, 0.5);
-    transition: all 0.4s;
+  font-size: 2.625rem;
+  color: rgba(0, 0, 0, 0.5);
+  transition: all 0.4s;
 }
 .social-media-icons .fas {
-    font-size: 42px;
-    color: rgba(0, 0, 0, 0.5);
-    transition: all 0.4s;
+  font-size: 2.625rem;
+  color: rgba(0, 0, 0, 0.5);
+  transition: all 0.4s;
 }
 .social-media-icons .fab:hover {
-    transform: scale(1.3, 1.3);
-    color: #333333;
+  transform: scale(1.3, 1.3);
+  color: #333333;
 }
 .social-media-icons .fas:hover {
-    transform: scale(1.3, 1.3);
-    color: #333333;
+  transform: scale(1.3, 1.3);
+  color: #333333;
+}
+@media (max-width: 768px) {
+  .social-media-text-item {
+    display: none;
+  }
+}
+@media (max-width: 550px) {
+  .social-media-text {
+    display: none;
+  }
 }

@@ -1,151 +1,169 @@
 .contact_us {
-    padding-top: 80px;
-    padding-bottom: 44px;
+  padding-top: 80px;
+  padding-bottom: 44px;
 }
 .contact_us-title {
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 36px;
-    line-height: 42px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #212121;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.25rem;
+  line-height: 2.625rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #212121;
 }
 .contact_us-title::after {
-    content: "";
-    display: block;
-    width: 64px;
-    margin: 34px auto 34px auto;
-    border: 1px solid #E72424;
+  content: "";
+  display: block;
+  width: 64px;
+  margin: 34px auto 34px auto;
+  border: 1px solid #E72424;
 }
 .contact_us-text {
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 19px;
-    color: #86878B;
-    text-align: center;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.875rem;
+  line-height: 1.1875rem;
+  color: #86878B;
+  text-align: center;
 }
 .contact_us-button {
-    display: block;
-    position: relative;
-    z-index: 2;
-    overflow: hidden;
-    width: 100%;
+  display: block;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+  width: 100%;
 }
 .contact_us-button-text {
-    cursor: pointer;
-    margin: 60px auto 0 auto;
-    border: none;
-    width: 166px;
-    justify-content: center;
-    align-items: center;
-    display: block;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 42px;
-    text-align: center;
-    background-color: #EC7979;
-    color: #FFFFFF;
-    position: relative;
-    transition: all 0.6s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+  cursor: pointer;
+  margin: 60px auto 0 auto;
+  border: none;
+  width: 10.375rem;
+  justify-content: center;
+  align-items: center;
+  display: block;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.9375rem;
+  line-height: 2.625rem;
+  text-align: center;
+  background-color: #EC7979;
+  color: #FFFFFF;
+  position: relative;
+  transition: all 0.6s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
 }
 .contact_us-button-text:hover {
-    background-color: transparent;
-    color: #ffffff !important;
+  background-color: transparent;
+  color: #ffffff !important;
 }
 .contact_us-button-text:hover::before {
-    bottom: 0;
-    top: auto;
-    height: 100%;
+  bottom: 0;
+  top: auto;
+  height: 100%;
 }
 .contact_us-button-text::before {
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 0;
-    width: 100%;
-    z-index: -1;
-    content: "";
-    background-color: #333333;
-    color: #ffffff !important;
-    transition: all 0.6s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 0;
+  width: 100%;
+  z-index: -1;
+  content: "";
+  background-color: #333333;
+  color: #ffffff !important;
+  transition: all 0.6s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
 }
 .contact_us-form-path form {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-
-} 
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
 .contact-form {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 .contact-form input {
-    width: 478px;
-    border: none;
-    margin-top: 13px;
-    border-bottom: 1px solid #bdbdbd;
-    padding: 0 5px;
-    margin-left: 0 auto;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 19px;
-    color: #000000;
+  width: 478px;
+  border: none;
+  margin-top: 13px;
+  border-bottom: 1px solid #bdbdbd;
+  padding: 0 5px;
+  margin-left: 0 auto;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.875rem;
+  line-height: 1.1875rem;
+  color: #000000;
 }
 .contact-form input:focus {
-    outline: none;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 19px;
-    color: #000000;
+  outline: none;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.875rem;
+  line-height: 1.1875rem;
+  color: #000000;
 }
 .contact-form textarea {
-    width: 478px;
-    border: none;
-    margin-top: 13px;
-    border-bottom: 1px solid #bdbdbd;
-    padding: 0 5px;
-    margin-left: 0 auto;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 19px;
-    color: #000000;
+  width: 478px;
+  border: none;
+  margin-top: 13px;
+  border-bottom: 1px solid #bdbdbd;
+  padding: 0 5px;
+  margin-left: 0 auto;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.875rem;
+  line-height: 1.1875rem;
+  color: #000000;
 }
 .contact-form textarea:focus {
-    outline: none;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 19px;
-    color: #000000;
+  outline: none;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.875rem;
+  line-height: 1.1875rem;
+  color: #000000;
 }
 .contact-form label {
-    margin-top: 32px;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 19px;
-    color: #BDBDBD;
-    max-width: 478px;
+  margin-top: 32px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.875rem;
+  line-height: 1.1875rem;
+  color: #BDBDBD;
+  max-width: 478px;
 }
 .contact-form label:first-child {
-    margin-top: 91px;
-    margin-right: 0;
+  margin-top: 91px;
+  margin-right: 0;
 }
 textarea {
-    resize: none;
+  resize: none;
+}
+.left-column {
+  margin-right: 3px;
+}
+.right-column {
+  margin-left: 3px;
+}
+@media (max-width: 992px) {
+  .contact_us-form-path form {
+    justify-content: center;
+  }
+}
+@media (max-width: 514px) {
+  .contact-form input {
+    width: 384px;
+  }
+  .contact-form textarea {
+    width: 384px;
+  }
 }
